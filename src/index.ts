@@ -1,3 +1,5 @@
-export function init() {
-    console.log('SkyAnalytics')
+export class SkyAnalytics {
+    init() {
+        console.log('SkyAnalytics initialized');
+    }
 }
