@@ -4,9 +4,12 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
 }
