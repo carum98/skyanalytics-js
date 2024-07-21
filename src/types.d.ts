@@ -1,12 +1,12 @@
-interface SkyAnalyticsOptions {
+export interface SkyAnalyticsOptions {
     key: string
     host: string
 }
 
-interface SkyAnalyticsPayloadEvent {
-    name: string
+export interface SkyAnalyticsPayloadEvent {
+    event: string
 }
 
-interface SkyAnalyticsPayloadNavigation {
-    name: string
+export interface SkyAnalyticsPayloadNavigation {
+    navigation: string
 }

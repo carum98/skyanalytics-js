@@ -1,3 +1,5 @@
+import { SkyAnalyticsOptions, SkyAnalyticsPayloadEvent, SkyAnalyticsPayloadNavigation } from './types'
+
 export class SkyAnalytics {
     private options!: SkyAnalyticsOptions
 
@@ -18,11 +20,15 @@ export class SkyAnalytics {
         })
     }
 
-    event(payload: SkyAnalyticsPayloadEvent) {
-        return this.send(payload)
+    event(payload: { name: string }) {
+        return this.send({
+            event: payload.name,
+        })
     }
 
-    navigation(payload: SkyAnalyticsPayloadNavigation) {
-        return this.send(payload)
+    navigation(payload: { name: string }) {
+        return this.send({
+            navigation: payload.name,
+        })
     }
 }
