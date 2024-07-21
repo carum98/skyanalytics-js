@@ -1,5 +1,5 @@
 interface SkyAnalyticsOptions {
-    sourceCode: string
+    key: string
     host: string
 }
 
