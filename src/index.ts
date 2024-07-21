@@ -1,5 +1,5 @@
-export class SkyAnalytics {
-    init() {
-        console.log('SkyAnalytics initialized');
-    }
-}
+import { SkyAnalytics } from './skyanalytics'
+
+const skyanalytics = new SkyAnalytics()
+
+export default skyanalytics
