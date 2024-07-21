@@ -10,7 +10,7 @@ export class SkyAnalytics {
     private send(payload: SkyAnalyticsPayloadEvent | SkyAnalyticsPayloadNavigation) {
         const { host, key } = this.options
 
-        return fetch(`${host}/api/send`, {
+        return fetch(`${host}/send`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

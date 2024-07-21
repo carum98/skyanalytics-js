@@ -2,6 +2,7 @@
   "name": "@skyanalytics/js",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Carlos Eduardo Umaña Acevedo <cumana3098@gmail.com>",
   "license": "MIT",
   "description": "SkyAnalytics JS is an adapter for [SkyAnalytics]",
