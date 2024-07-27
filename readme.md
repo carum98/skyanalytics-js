@@ -3,12 +3,12 @@ SkyAnalytics JS is an adapter for [SkyAnalytics](https://github.com/carum98/skya
 
 ## Installation
 ```shell
-npm install https://github.com/carum98/skyanalytics-js
+npm install @skyanalytics/js
 ```
 
 ## Usage
 ```javascript
-import skyanalytics from 'skyanalytics';
+import skyanalytics from '@skyanalytics/js';
 
 skyanalytics.init({
     key: 'source_key',

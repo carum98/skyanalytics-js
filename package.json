@@ -16,7 +16,8 @@
   "homepage": "https://github.com/carum98/skyanalytics-js.git#readme",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "publish": "npm publish --access public"
   },
   "files": [
     "dist"
